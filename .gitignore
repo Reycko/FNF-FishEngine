@@ -1,7 +1,6 @@
 .DS_STORE
 .haxelib/
 .vs/
-APIStuff.hx
 dump/
 export/
 RECOVER_*.fla
@@ -13,3 +12,11 @@ shitAudio/
 node_modules/
 package.json
 package-lock.json
+
+
+# art gitignore
+art/**/RECOVER_**
+art/**/.DS_STORE
+
+# assets gitignore
+assets/**/.DS_STORE
